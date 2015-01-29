@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget 
-  id="com.sensestudios.zoomintv.games" 
+  id="com.sensestudios.zoomintv.jacksepticeye" 
   version="2.2.4" 
   versioncode="21"
   xmlns="http://www.w3.org/ns/widgets" 
@@ -9,11 +9,11 @@
   xmlns:cdv="http://cordova.apache.org/ns/1.0"
 >
 
-    <name>ZoominTV Games</name>
-    <description>ZoominTV Games Channel</description>
+    <name>JackSepticeye</name>
+    <description>ZoominTV Jacksepticeye Channel</description>
     <author email="info@zoomin.tv" href="http://zoomin.tv">ZoominTV</author>
     
-    <content src="http://zoomintv-games.herokuapp.com" />
+    <content src="http://zoomintvjacksepticeye.herokuapp.com/" />
     <!-- <content src="http://develop.sense-studios.com:32000" /> -->
     <!-- <content src="http://zoomintvgames-staging.herokuapp.com" /> -->
     <access origin="*" />
@@ -24,9 +24,10 @@
 
     <!-- plugins -->
     <gap:plugin name="com.phonegap.plugin.statusbar" version="1.1.0" />
+    <gap:plugin name="com.phonegap.plugins.barcodescanner" version="2.0.0" />
+    <gap:plugin name="com.phonegap.plugins.pushplugin" version="2.4.0" />
     <gap:plugin name="nl.x-services.plugins.socialsharing" version="4.3.6" />
     <gap:plugin name="org.apache.cordova.splashscreen" version="0.3.3" />
-    <gap:plugin name="com.phonegap.plugins.pushplugin" version="2.4.0" />
     
     <!-- ios specific -->
     <preference name="AllowInlineMediaPlayback" value="true" />
